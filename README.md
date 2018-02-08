@@ -13,6 +13,8 @@ git clone git@github.com:liumiemie/react-One.git
 npm install
 # 运行程序
 执行node指令运行backEnd.js
+
+
 node backEnd
 # 浏览器打开地址
 http://120.78.142.165:3000/#/index/home（移动端效果更佳）
