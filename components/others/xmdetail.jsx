@@ -18,7 +18,8 @@ class Xmdetail extends React.Component{
         	search:'',
         	showDailog:false,
         	showDailog2:false,
-        	loginBox:false
+        	loginBox:false,
+        	icon:"http://120.78.142.165:3000/img/music1.jpg"
         }
     }
 	render(){
@@ -71,7 +72,7 @@ class Xmdetail extends React.Component{
     	</div>
     	<div style={{height:'27px',marginRight:'20px'}}>
 	    	<p className="page-sparate-title" style={{float:'left',marginTop:'0px'}}>评论内容</p>
-	    	<img src='/img/comment.png' onClick={this.commentImg.bind(this)} style={{float:'right',width:'25px'}}/>
+	    	<img src='http://120.78.142.165:3000/img/comment.png' onClick={this.commentImg.bind(this)} style={{float:'right',width:'25px'}}/>
 	    </div>
 	    <hr className="sort-separate-line"/>
 	    <table className="page-table">
@@ -282,7 +283,8 @@ class Xmdetail extends React.Component{
     				content:_this.state.search,
     				name:sessionStorage.getItem("name"),
     				time:new Date().toLocaleTimeString(),
-    				icon:"/img/music1.jpg"
+    				icon:_this.state.icon
+    				
     			},
     			success(data){					
 					$.ajax({

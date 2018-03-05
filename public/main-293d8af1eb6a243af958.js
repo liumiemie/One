@@ -10910,7 +10910,7 @@ class Xheader extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
     }, "App\u4E0B\u8F7D")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
       href: "#"
     }, "\u5173\u4E8E")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", null, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-      src: '/img/close.png',
+      src: 'http://120.78.142.165:3000/img/close.png',
       onClick: this.hideUl.bind(this),
       style: {
         width: '35px'
@@ -14599,7 +14599,8 @@ __WEBPACK_IMPORTED_MODULE_0_react_dom___default.a.render(__WEBPACK_IMPORTED_MODU
   path: "/vdetail",
   component: __WEBPACK_IMPORTED_MODULE_9__components_others_xvdetail_jsx__["a" /* default */]
 }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_react_router_dom__["c" /* Route */], {
-  path: "/login",
+  exact: true,
+  path: "/",
   component: __WEBPACK_IMPORTED_MODULE_10__components_login_jsx__["a" /* default */]
 })))), document.querySelector("#app"));
 
@@ -37155,7 +37156,7 @@ exports = module.exports = __webpack_require__(14)(false);
 
 
 // module
-exports.push([module.i, "/*阅读页样式*/\r\n.reading_list{\r\n\tbackground: #f6f6f6;\r\n}\r\n.reading_item_text{\r\n\tbackground: #ffffff;\r\n    margin: 0 0 8px 0;\r\n    box-shadow: 0 1px 0 0 rgba(230, 230, 230, 0.5);\r\n}\r\n.reading_list p{\r\n\tmargin: 5px 20px;\r\n}\r\n.reading_text_tag{\r\n\tcolor: rgba(0, 0, 0, 0.6);\r\n    line-height: 28px;\r\n    font-size: 14px;\r\n    text-align: center;\r\n    padding: 12px 0 16px 0;\r\n}\r\n.reading_text_title{\r\n\tfont-size: 22px;\r\n    line-height: 22px;\r\n    max-height: 44px;\r\n    margin-top: 0;\r\n    color: black;\r\n    font-weight: bold;\r\n}\r\n.reading_text_title a{\r\n\ttext-decoration: none;\r\n    font-weight: normal;\r\n    color: inherit;\r\n}\r\n.reading_text_author{\r\n\tfont-size: 16px;\r\n    line-height: 30px;\r\n    color: rgba(0, 0, 0, 0.6);\r\n    margin-top: 5px;\r\n    padding: 0 40px 0 0;\r\n}\r\n.reading_text_cover_img{\r\n\tmargin: 10px 20px;\r\n    width: 280px;\r\n    height: 200px;\r\n    background-size: cover;\r\n    overflow: hidden;\r\n}\r\n.reading_text_cover_img img{\r\n\twidth: 100%;\r\n\theight: 100%;\r\n}\r\n.reading_text_content_short {\r\n\tfont-size: 14px;\r\n    line-height: 30px;\r\n    max-height: 60px;\r\n    color: rgba(0, 0, 0, 0.6);\r\n    margin-top: 12px;\r\n}\r\n.reading_list .reading_item_text .reading_date{\r\n\tfont-size: 10px;\r\n    line-height: 22px;\r\n    padding: 12px 0 30px 0;;\r\n    color: #808080;\r\n    text-align: left;\r\n}\r\n/*阅读详情页样式*/\r\n.detail_text{\r\n\tmargin: 20px;\r\n}\r\n.detail_text img{\r\n\ttext-align: center;\r\n    max-width: 100%;\r\n}\r\n.detail_text_title{\r\n\tcolor: black;\r\n    font-size: 28px;\r\n    margin: 30px 0px 0 0px;\r\n    font-weight: bold;\r\n}\r\n.detail_sort_separate_line{\r\n\tmargin-top: 15px;\r\n}\r\n.detail_sort_separate_line15{\r\n\tborder: 2px solid #000;\r\n    margin: 7px 0 7px 0px;\r\n    width: 70px;\r\n}\r\n.detail_text_author {\r\n    color: black;\r\n    font-size: 13px;\r\n    margin-top: 14px;\r\n}\r\n.detail_text_content{\r\n\tline-height: 26px;\r\n    margin-top: 14px;\r\n    margin: 0 0 20px 0;\r\n    text-align: justify;\r\n}\r\n.detail_text_content p{\r\n\ttext-align: justify;\r\n\tfont-size: 18px;\r\n    font-weight: 300;\r\n    line-height: 30px !important;\r\n    margin: 0 0 20px 0;\r\n}\r\n.detail_text_content .one-image-note {\r\n    font-size: 12px;\r\n    color: #808080;\r\n    margin-bottom: 20px;\r\n}\r\n.detail_text_content .one-image-note-text {\r\n    line-height: 18px;\r\n    margin-top: -22px;\r\n    margin-left: 18px;\r\n}\r\n.detail_text_content .one-image-note-text-inner {\r\n    font-style: normal;\r\n    -webkit-font-smoothing: antialiased;\r\n    margin-top: -14px;\r\n    line-height: 20px;\r\n    color: #808080 !important;\r\n    word-break: break-all;\r\n    word-wrap: break-word;\r\n    text-align: justify;\r\n    line-height: 0;\r\n}\r\n.detail_text_content p.fr_pspace_a1{\r\n\tmargin-bottom: 10px;\r\n}\r\n.detail_text_content p.fr_pspace_a0{\r\n\tmargin-bottom: 0;\r\n}\r\n.detail_text_content p.last_page{\r\n\tmargin-bottom: 94px;\r\n}\r\n/*阅读详情页底部样式*/\r\n.footer{\r\n\twidth: 100%;\r\n\theight: 45px;\r\n\tposition: fixed;\r\n\tbottom: 0;\r\n\tdisplay: flex;\r\n\talign-items: center;\r\n\tborder-top: 1px solid #808080;\r\n\tfont-size: 16px;\r\n\tbackground-color: rgba(255, 255, 255, 0.9);\r\n    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);\r\n}\r\n.footer span{\r\n\tdisplay: flex;\r\n\theight: 45px;\r\n\tflex: 1;\r\n\talign-items: center;\r\n\tjustify-content: center;\r\n}\r\n.footer a{\r\n\tdisplay: flex;height: 45px;\r\n\tflex: 1;\r\n\talign-items: center;\r\n\tjustify-content: center;\r\n\tcolor: #666;\r\n}", ""]);
+exports.push([module.i, "/*阅读页样式*/\r\n.reading_list{\r\n\tbackground: #f6f6f6;\r\n}\r\n.reading_item_text{\r\n\tbackground: #ffffff;\r\n    margin: 0 0 8px 0;\r\n    box-shadow: 0 1px 0 0 rgba(230, 230, 230, 0.5);\r\n}\r\n.reading_list p{\r\n\tmargin: 5px 20px;\r\n}\r\n.reading_text_tag{\r\n\tcolor: rgba(0, 0, 0, 0.6);\r\n    line-height: 28px;\r\n    font-size: 14px;\r\n    text-align: center;\r\n    padding: 12px 0 16px 0;\r\n}\r\n.reading_text_title{\r\n\tfont-size: 22px;\r\n    line-height: 22px;\r\n    max-height: 44px;\r\n    margin-top: 0;\r\n    color: black;\r\n    font-weight: bold;\r\n}\r\n.reading_text_title a{\r\n\ttext-decoration: none;\r\n    font-weight: normal;\r\n    color: inherit;\r\n}\r\n.reading_text_author{\r\n\tfont-size: 16px;\r\n    line-height: 30px;\r\n    color: rgba(0, 0, 0, 0.6);\r\n    margin-top: 5px;\r\n    padding: 0 40px 0 0;\r\n}\r\n.reading_text_cover_img{\r\n\tmargin: 10px 20px;\r\n    /*width: 280px;\r\n    height: 200px;*/\r\n    background-size: cover;\r\n    overflow: hidden;\r\n}\r\n.reading_text_cover_img img{\r\n\twidth: 100%;\r\n\theight: 100%;\r\n}\r\n.reading_text_content_short {\r\n\tfont-size: 14px;\r\n    line-height: 30px;\r\n    max-height: 60px;\r\n    color: rgba(0, 0, 0, 0.6);\r\n    margin-top: 12px;\r\n}\r\n.reading_list .reading_item_text .reading_date{\r\n\tfont-size: 10px;\r\n    line-height: 22px;\r\n    padding: 12px 0 30px 0;\r\n    color: #808080;\r\n    text-align: left;\r\n}\r\n/*阅读详情页样式*/\r\n.detail_text{\r\n\tmargin: 20px;\r\n}\r\n.detail_text img{\r\n\ttext-align: center;\r\n    max-width: 100%;\r\n}\r\n.detail_text_title{\r\n\tcolor: black;\r\n    font-size: 28px;\r\n    margin: 30px 0px 0 0px;\r\n    font-weight: bold;\r\n}\r\n.detail_sort_separate_line{\r\n\tmargin-top: 15px;\r\n}\r\n.detail_sort_separate_line15{\r\n\tborder: 2px solid #000;\r\n    margin: 7px 0 7px 0px;\r\n    width: 70px;\r\n}\r\n.detail_text_author {\r\n    color: black;\r\n    font-size: 13px;\r\n    margin-top: 14px;\r\n}\r\n.detail_text_content{\r\n\tline-height: 26px;\r\n    margin-top: 14px;\r\n    margin: 0 0 20px 0;\r\n    text-align: justify;\r\n}\r\n.detail_text_content p{\r\n\ttext-align: justify;\r\n\tfont-size: 18px;\r\n    font-weight: 300;\r\n    line-height: 30px !important;\r\n    margin: 0 0 20px 0;\r\n}\r\n.detail_text_content .one-image-note {\r\n    font-size: 12px;\r\n    color: #808080;\r\n    margin-bottom: 20px;\r\n}\r\n.detail_text_content .one-image-note-text {\r\n    line-height: 18px;\r\n    margin-top: -22px;\r\n    margin-left: 18px;\r\n}\r\n.detail_text_content .one-image-note-text-inner {\r\n    font-style: normal;\r\n    -webkit-font-smoothing: antialiased;\r\n    margin-top: -14px;\r\n    line-height: 20px;\r\n    color: #808080 !important;\r\n    word-break: break-all;\r\n    word-wrap: break-word;\r\n    text-align: justify;\r\n    line-height: 0;\r\n}\r\n.detail_text_content p.fr_pspace_a1{\r\n\tmargin-bottom: 10px;\r\n}\r\n.detail_text_content p.fr_pspace_a0{\r\n\tmargin-bottom: 0;\r\n}\r\n.detail_text_content p.last_page{\r\n\tmargin-bottom: 94px;\r\n}\r\n/*阅读详情页底部样式*/\r\n.footer{\r\n\twidth: 100%;\r\n\theight: 45px;\r\n\tposition: fixed;\r\n\tbottom: 0;\r\n\tdisplay: flex;\r\n\talign-items: center;\r\n\tborder-top: 1px solid #808080;\r\n\tfont-size: 16px;\r\n\tbackground-color: rgba(255, 255, 255, 0.9);\r\n    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);\r\n}\r\n.footer span{\r\n\tdisplay: flex;\r\n\theight: 45px;\r\n\tflex: 1;\r\n\talign-items: center;\r\n\tjustify-content: center;\r\n}\r\n.footer a{\r\n\tdisplay: flex;height: 45px;\r\n\tflex: 1;\r\n\talign-items: center;\r\n\tjustify-content: center;\r\n\tcolor: #666;\r\n}", ""]);
 
 // exports
 
@@ -37331,17 +37332,17 @@ class Xfooter extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
     super(props);
     this.state = {
       imgArr: [{
-        staticImg: "/img/home.png",
-        activeImg: "/img/home_active.png"
+        staticImg: "http://120.78.142.165:3000/img/home.png",
+        activeImg: "http://120.78.142.165:3000/img/home_active.png"
       }, {
-        staticImg: "/img/reading.png",
-        activeImg: "/img/reading_active.png"
+        staticImg: "http://120.78.142.165:3000/img/reading.png",
+        activeImg: "http://120.78.142.165:3000/img/reading_active.png"
       }, {
-        staticImg: "/img/music.png",
-        activeImg: "/img/music_active.png"
+        staticImg: "http://120.78.142.165:3000/img/music.png",
+        activeImg: "http://120.78.142.165:3000/img/music_active.png"
       }, {
-        staticImg: "/img/movie.png",
-        activeImg: "/img/movie_active.png"
+        staticImg: "http://120.78.142.165:3000/img/movie.png",
+        activeImg: "http://120.78.142.165:3000/img/movie_active.png"
       }],
       selectId: 0
     };
@@ -37463,7 +37464,8 @@ class Xmdetail extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
       search: '',
       showDailog: false,
       showDailog2: false,
-      loginBox: false
+      loginBox: false,
+      icon: "http://120.78.142.165:3000/img/music1.jpg"
     };
   }
 
@@ -37620,7 +37622,7 @@ class Xmdetail extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
         marginTop: '0px'
       }
     }, "\u8BC4\u8BBA\u5185\u5BB9"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-      src: "/img/comment.png",
+      src: "http://120.78.142.165:3000/img/comment.png",
       onClick: this.commentImg.bind(this),
       style: {
         float: 'right',
@@ -37893,7 +37895,7 @@ class Xmdetail extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
           content: _this.state.search,
           name: sessionStorage.getItem("name"),
           time: new Date().toLocaleTimeString(),
-          icon: "/img/music1.jpg"
+          icon: _this.state.icon
         },
 
         success(data) {
@@ -38513,7 +38515,7 @@ class Xlogin extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
     }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
       className: "bgimg"
     }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-      src: "/img/logo.jpg",
+      src: "http://120.78.142.165:3000/img/logo.jpg",
       style: {
         width: '100%'
       }
@@ -38589,4 +38591,4 @@ class Xlogin extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=main-150c410c0f13cfbbf58a.js.map
+//# sourceMappingURL=main-293d8af1eb6a243af958.js.map
